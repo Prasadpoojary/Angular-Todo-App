@@ -1,0 +1,27 @@
+
+.form
+{
+    margin-top: 50px;
+}
+
+.form input
+{
+    width:300px;
+    padding:10px 20px;
+    border-radius: 20px 0px 0px 20px;
+    border:2px solid rgb(235, 14, 69);
+    outline:none;
+}
+
+.form button
+{
+    height: 39px;
+    margin-left: -5px;
+    border-radius: 0px 20px 20px 0px;
+    background-color:#d30b47;
+    color:#fff;
+    font-weight: 700;
+    border:none;
+    outline:none;
+    cursor: pointer;
+}

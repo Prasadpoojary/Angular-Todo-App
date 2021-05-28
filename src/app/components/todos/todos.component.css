@@ -1,0 +1,57 @@
+.todos
+{
+    display: flex;
+    justify-content: center;
+}
+
+.todos li
+{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    height:40px;
+    width:500px;
+    margin:3px;
+    background: #d30b47;
+    color:white;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.todos li span:nth-child(1)
+{
+    width:50px;
+}
+
+.todos li span:nth-child(2)
+{
+    width:250px;
+}
+
+li input
+{
+    cursor: pointer;
+}
+
+.todos li span:nth-child(3)
+{
+    width:100px;
+}
+
+li button
+{
+    color:white;
+    background:#d30b47;
+    border:none;
+    outline:none;
+    margin-right:20px;
+    cursor: pointer;
+}
+
+
+.isComplete
+{
+    color:#fc6d98;
+    text-decoration: line-through;
+    
+}

@@ -1,0 +1,11 @@
+<div class="todos">
+    <ul>
+        <li *ngFor='let todo of todos'>
+            <span><input type="checkbox" name="" id="" (change)="updateTodo(todo)"></span>
+            <span><p [ngClass]='{isComplete : todo.isCompleted}'>{{todo.title | uppercase}}</p></span>
+            <span>{{todo.tdate | date}}</span>
+            <span><button (click)="deleteTodo(todo)"><fa-icon [icon]="faTrash"></fa-icon></button></span>
+        </li>
+        
+    </ul>
+</div>
